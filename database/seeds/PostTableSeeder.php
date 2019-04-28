@@ -1,7 +1,5 @@
 <?php
-
 use Illuminate\Database\Seeder;
-
 class PostTableSeeder extends Seeder
 {
     /**
@@ -16,7 +14,6 @@ class PostTableSeeder extends Seeder
             'content' => 'This blog post will get you right on track with Laravel!'
         ]);
         $post->save();
-
         $post = new \App\Post([
             'title' => 'Something else',
             'content' => 'Some other content'

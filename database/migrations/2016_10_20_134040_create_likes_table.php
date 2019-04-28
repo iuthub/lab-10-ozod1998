@@ -1,9 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-
 class CreateLikesTable extends Migration
 {
     /**
@@ -19,7 +17,6 @@ class CreateLikesTable extends Migration
             $table->integer('post_id');
         });
     }
-
     /**
      * Reverse the migrations.
      *

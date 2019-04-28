@@ -1,9 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-
 class CreateTagsTable extends Migration
 {
     /**
@@ -19,7 +17,6 @@ class CreateTagsTable extends Migration
             $table->string('name');
         });
     }
-
     /**
      * Reverse the migrations.
      *

@@ -1,9 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-
 class CreatePostTagTable extends Migration
 {
     /**
@@ -20,7 +18,6 @@ class CreatePostTagTable extends Migration
             $table->integer('tag_id');
         });
     }
-
     /**
      * Reverse the migrations.
      *

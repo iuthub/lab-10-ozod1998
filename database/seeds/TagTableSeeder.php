@@ -1,7 +1,5 @@
 <?php
-
 use Illuminate\Database\Seeder;
-
 class TagTableSeeder extends Seeder
 {
     /**
@@ -14,7 +12,6 @@ class TagTableSeeder extends Seeder
         $tag = new \App\Tag();
         $tag->name = 'Tutorial';
         $tag->save();
-
         $tag = new \App\Tag();
         $tag->name = 'Industry News';
         $tag->save();
